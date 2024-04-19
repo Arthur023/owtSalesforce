@@ -18,13 +18,4 @@ This project is designed to handle job applications through Salesforce. It consi
 - **REST API Endpoint:** `RestApiClassJobApplication`
   - This endpoint facilitates interaction with job application data via RESTful APIs.
 
-## Usage
 
-- **Trigger Usage:**
-  - Ensure that `JobApplicationTrigger` is properly configured to fire on the appropriate Salesforce events related to job applications.
-
-- **Handler Usage:**
-  - Utilize `JobApplicationTriggerHandler` to implement custom logic for processing job applications triggered by the trigger.
-
-- **REST API Endpoint Usage:**
-  - Interact with `RestApiClassJobApplication` endpoint to perform CRUD operations on job application data externally.
